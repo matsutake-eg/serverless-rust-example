@@ -21,8 +21,6 @@ package:
   individually: true
 
 custom:
-  rust:
-    dockerless: true
   prune:
     automatic: true
     number: 3

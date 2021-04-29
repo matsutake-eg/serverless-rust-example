@@ -11,6 +11,6 @@ async fn main() -> Result<(), Error> {
 
 async fn hello(_: Request, _: Context) -> Result<impl IntoResponse, Error> {
     Ok(json!({
-        "message": "Hello Serverless and Rust 🌞"
+        "message": "Hello Serverless and Rust 1.45.2 🌞"
     }))
 }
